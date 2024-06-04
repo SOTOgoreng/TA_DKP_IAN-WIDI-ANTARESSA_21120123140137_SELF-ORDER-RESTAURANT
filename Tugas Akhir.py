@@ -54,7 +54,7 @@ class FoodOrderApp:
             item_label.pack(side=tk.LEFT, padx=10)
 
             var = tk.StringVar(value='0')
-            spin = tk.Spinbox(item_frame, from_=0, to=10, width=3, textvariable=var, font=("Arial", 12))
+            spin = tk.Spinbox(item_frame, from_=0, to=100, width=3, textvariable=var, font=("Arial", 12))
             spin.pack(side=tk.RIGHT, padx=10)
             self.menu_vars[item] = var
 
